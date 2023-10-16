@@ -48,7 +48,7 @@ RF--. O sistema deverá permitir aos utilizadores com permissão para tal ligar 
 RF--. O sistema deverá exigir aos utilizadores CAPTCHA e verificação 2FA para ações sensíveis (apagar um projeto, editar permissões).  
 RF--. O sistema deverá permitir aos utilizadores fazer upload de diagramas.  
 RF--. O sistema deverá permitir aos utilizadores fazer upload de ficheiros CASE.  
-RF--. O sistema deverá permitir aos utilizadores gerir os diagramas / ficheiros CASE submetidos.  
+RF--. O sistema deverá permitir aos utilizadores visualisar e gerir os diagramas / ficheiros CASE submetidos.  
 RF--. O sistema deverá permitir a repartição dos projetos.  
 RF--. O sistema deverá permitir ao utilizador escolher as linguagens de programação e outros requisitos para cada parte do seu projeto.  
 RF--. O sistema deverá fornecer ao utilizador uma estimativa de custos para o projeto como um todo e para cada uma das suas partes, com recurso a AI.  
@@ -60,4 +60,5 @@ RF--. O sistema deverá permitir gerar código novamente com base no feedback do
 RF--. O sistema deverá enviar notificações ao utilizador (PUSH/email) sempre que o seu input for necessário ou quando a geração de código estiver concluida.  
 RF--. O sistema deverá permitir ativar ou desativar as notificações para cada projeto.  
 RF--. O sistema deverá permitir que o utilizador consulte estatísticas relativas a si mesmo e aos seus projetos.  
-RF--. O sistema deverá, em cada processo de geração de código, descontar tokens ao utilizador.  
+RF--. O sistema deverá, antes de cada etapa de geração de código, apresentar a estimativa de custos ao utilizador e aguardar aprovação antes de começar.
+RF--. O sistema deverá, em cada etapa de geração de código, descontar tokens ao utilizador.
