@@ -25,6 +25,7 @@ RF--. O sistema deverá permitir associar ao utilizador dados de faturação (no
 RF--. O sistema deverá permitir associar ao utilizador métodos de pagamento.  
 RF--. O sistema deverá permitir ao utilizador adquirir tokens.  
 RF--. O sistema deverá permitir ao utilizador subscrever a um plano mensal ou anual.  
+RF--. O sistema deverá permitir ao utilizador gerar referências de pagamento para tokens ou planos.  
 RF--. O sistema deverá permitir ao utilizador gerir (cancelar, alterar) o seu plano.  
 RF--. O sistema deverá mostrar ao utilizador o seu plano.  
 RF--. O sistema deverá mostrar ao utilizador a quantidade de tokens que possui.  
@@ -57,8 +58,10 @@ RF--. O sistema deverá testar o código de acordo com os requisitos do projeto.
 RF--. O sistema deverá permitir ao utilizador dar feedback ao código gerado.  
 RF--. O sistema deverá permitir ao utilizador editar manualmente o código na plataforma ou num repositório Git.  
 RF--. O sistema deverá permitir gerar código novamente com base no feedback do utilizador.  
+RF--. O sistema deverá permitir que o utilizador fale com a AI, trocando feedback com a mesma quanto a funcionalidades e custos.  
 RF--. O sistema deverá enviar notificações ao utilizador (PUSH/email) sempre que o seu input for necessário ou quando a geração de código estiver concluida.  
+RF--. O sistema deverá enviar para o email do utilizador as faturas relativas a tokens e planos de subscrição.  
 RF--. O sistema deverá permitir ativar ou desativar as notificações para cada projeto.  
 RF--. O sistema deverá permitir que o utilizador consulte estatísticas relativas a si mesmo e aos seus projetos.  
-RF--. O sistema deverá, antes de cada etapa de geração de código, apresentar a estimativa de custos ao utilizador e aguardar aprovação antes de começar.
-RF--. O sistema deverá, em cada etapa de geração de código, descontar tokens ao utilizador.
+RF--. O sistema deverá, antes de cada etapa de geração de código, apresentar a estimativa de custos ao utilizador e aguardar aprovação antes de começar.  
+RF--. O sistema deverá, em cada etapa de geração de código, descontar tokens ao utilizador.  
