@@ -61,3 +61,22 @@ RF--. O sistema deverá enviar notificações ao utilizador (PUSH/email) sempre 
 RF--. O sistema deverá permitir ativar ou desativar as notificações para cada projeto.
 RF--. O sistema deverá permitir que o utilizador consulte estatísticas relativas a si mesmo e aos seus projetos.
 RF--. O sistema deverá, em cada processo de geração de código, descontar tokens ao utilizador.
+
+
+## requisitos não funcionais
+
+RNF--. O sistema deve suportar diagramas em formato CASE.
+RNF--. O sistema deverá suportar ficheiros .vpp.
+RNF--. O sistema deverá suportar pagamento por Visa, MasterCard, cartão multibanco, referência multibanco, MBWAY, PayPal, referência PayShop / CTT e PaySafeCard.
+RNF--. O sistema deverá ser programada em Kotlin.
+RNF--. O sistema deverá registar erros.
+RNF--. O sistema deverá ter proteções anti-spam e contra SQL injections.
+RNF--. O sistema deverá exigir uma password segura (mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais)
+RNF--. O sistema deverá exigir 2FA para utilizadores empresariais.
+RNF--. O sistema deverá estar disponível em todas as línguas oficiais da ONU e da União Europeia.
+RNF--. O sistema deverá respeitar toda a legislação vigente, em especial em termos de proteção de dados (RGPD).
+RNF--. O sistema deverá suportar light mode, dark mode e modo adaptativo conforme a hora.
+RNF--. O sistema deverá aceitar login por email e password, google, apple, facebook, twitter, github, gitlab, autenticação.gov.pt (chave móvel digital, cartão de cidadão ou portal das finanças).
+RNF--. O sistema deverá ter vários planos mensais ou anuais, que darão tokens ao utilizador.
+RNF--. O sistema deverá ter vários planos mensais ou anuais para utilizadores empresariais, variando o número de utilizadores e a quantidade de tokens para cada equipa e/ou utilizador.
+RNF--. O sistema deverá mostrar anúncios não intrusivos a utilizadores gratuítos.
